@@ -1,0 +1,40 @@
+# TopoGuard Configuration
+
+# Topology Parameters
+topology:
+  persistence_threshold: 0.1
+  max_dimension: 2
+  metric: "euclidean"
+  filtration: "rips"
+  
+# Graph Construction
+graph:
+  time_window_hours: 24
+  min_transactions: 10
+  edge_weight_threshold: 0.01
+  
+# Anomaly Detection
+anomaly:
+  score_threshold: 0.7
+  persistence_weight: 0.6
+  graph_structure_weight: 0.4
+  adaptive_learning: true
+  learning_rate: 0.01
+  
+# API Settings
+api:
+  host: "0.0.0.0"
+  port: 8000
+  workers: 4
+  log_level: "INFO"
+  
+# Database
+database:
+  url: "sqlite:///./topoguard.db"
+  echo: false
+  
+# Dashboard
+dashboard:
+  update_interval_seconds: 5
+  max_alerts_display: 100
+
