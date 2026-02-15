@@ -206,3 +206,6 @@ class TopoGuard:
         
         return "; ".join(reasons)
 
+
+
+

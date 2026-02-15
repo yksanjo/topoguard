@@ -58,3 +58,6 @@ This directory contains screenshots of the TopoGuard user interface.
 - **Annotations**: Add arrows or highlights to point out key features
 - **Privacy**: Redact any sensitive data before committing
 
+
+
+
